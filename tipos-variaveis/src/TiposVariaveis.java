@@ -9,5 +9,8 @@ public class TiposVariaveis {
 
         //variavel que não podem ser alteradas, é identificado com caixa alta e a palavra final na frente
         final float VALOR_PI = 3.14F;
+
+        //Temos o tipo de variavel String que também representa uma classe, String é utilizado para textos
+        String nome = "Fernando";
     }
 }
