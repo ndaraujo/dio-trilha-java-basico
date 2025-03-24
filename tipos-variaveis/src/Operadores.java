@@ -39,5 +39,13 @@ public class Operadores {
         numero1--; //mesma coisa que numero = numero1 - 1;
 
         System.out.println(numero1);
+
+        // negando valores booleanos, false or true
+
+        boolean variavel = true;
+
+        variavel = !variavel; //coloque ! na frente para negar a variavel, a variavel passa a ser false e vise versa
+
+        System.out.println(variavel);
     }
 }
