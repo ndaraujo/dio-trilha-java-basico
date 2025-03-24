@@ -47,5 +47,28 @@ public class Operadores {
         variavel = !variavel; //coloque ! na frente para negar a variavel, a variavel passa a ser false e vise versa
 
         System.out.println(variavel);
+
+        // operador ternário, condição ternária
+
+        // usando exemplo para saber se os números são iguais
+
+        //exemplo normal com if
+        int a = 5;
+        int b = 6;
+
+        if (a == b) {
+            System.out.println("Verdadeiro");
+        }
+
+        else {
+            System.out.println("Falso");
+        }
+
+        //exemplo usando uma condição ternária
+
+        String resultado = a == b ? "Verdadeiro" : "Falso";
+
+        System.out.println(resultado);
+
     }
 }
