@@ -27,5 +27,17 @@ public class Operadores {
         concatenacao = "1" + 1 + 1 + 1;
 
         System.out.println(concatenacao);
+
+        //exemplo de incremento com operador ++ e decremento com operador --
+
+        int numero1 = 10;
+        
+        numero1++; //mesma coisa que numero1 = numero1 + 1;
+
+        System.out.println(numero1);
+
+        numero1--; //mesma coisa que numero = numero1 - 1;
+
+        System.out.println(numero1);
     }
 }
